@@ -1,0 +1,24 @@
+.singleservices {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.singleservices svg {
+    color: rgb(24, 83, 24);
+    font-size: 2.5rem;
+}
+
+.singleservices h3 {
+    color: rgb(31, 17, 17);
+}
+
+.singleservices>p {
+    color: rgb(91, 94, 94);
+}
+
+@media (min-width:768px) {
+    .singleservices {
+        margin-top: 80px;
+    }
+}

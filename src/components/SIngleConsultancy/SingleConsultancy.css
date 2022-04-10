@@ -1,0 +1,15 @@
+.singleConsultancy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singleConsultancy>* {
+    flex-basis: 50%;
+    margin-top: 30px;
+}
+
+.singleConsultancy .image img {
+    max-width: 100%;
+    display: block;
+}

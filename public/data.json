@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "heading": "Course Language",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 2,
+        "heading": "Topic Based",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 3,
+        "heading": "Latest Technology",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 4,
+        "heading": "Theoritical Knowledge",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 5,
+        "heading": "Practical Acknowledge",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 6,
+        "heading": "Real Projects",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 7,
+        "heading": "Practice Session ",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 8,
+        "heading": "Community Building",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    },
+    {
+        "id": 9,
+        "heading": "Lifetime Access",
+        "images": "../src/images/icons/open-book.png",
+        "desc": "We provide our courses for lifetime acceess. All the practice sesssion is conducted by our expericend instructor. Our support members conduct the classes as per students priority language"
+    }
+]

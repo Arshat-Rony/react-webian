@@ -1,0 +1,11 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media (min-width:768px) {
+    .about {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

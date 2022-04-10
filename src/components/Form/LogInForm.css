@@ -1,0 +1,36 @@
+form {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 234);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form .input {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px;
+}
+
+form .log-in-btn {
+    background-color: rgba(229, 64, 46, 0.941);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.9s;
+}
+
+form .log-in-btn:hover {
+    background-color: coral;
+    color: black;
+}
+
+
+
+/* https://github.com/mir-hussain/tech-geeks-firebase-practice
+https://github.com/mir-hussain/tech-geeks-firebase */
+/* 
+https://www.figma.com/file/MVuILecuS58dCQvrdG04Tc/Tech-Geeks?node-id=0%3A1 */
