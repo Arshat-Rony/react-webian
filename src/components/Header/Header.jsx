@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import img from "../../images/Blue_Globe_Technology_Logo__220___140_px___400___350_px_-removebg-preview.png"
 import './Header.css'
@@ -8,13 +8,13 @@ import { auth } from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import useCourses from '../../hooks/useCourses';
 
 const Header = () => {
     const [user] = useAuthState(auth)
     const logOut = () => {
         signOut(auth)
     }
-    const location = useLocation()
     return (
         <div className='header'>
             <nav>
@@ -28,17 +28,7 @@ const Header = () => {
                     <li>  <CustomLink to='/consultancy'>Consultancy</CustomLink></li>
                     <li><CustomLink to='/courses'>Courses</CustomLink></li>
 
-                    <li>
-                        {
 
-                            location.pathname === '/courses' && <div className="search-box">
-                                <input type="search" className='ps-3' name="search" id="search" placeholder='Search' />
-                                <FontAwesomeIcon className='icon' icon={faSearch}></FontAwesomeIcon>
-                            </div>
-
-
-                        }
-                    </li>
 
                 </div>
 

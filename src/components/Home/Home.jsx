@@ -10,7 +10,7 @@ import pic4 from "../../images/services/Untitled 4.png"
 import About from '../About/About';
 import useCourses from '../../hooks/useCourses';
 import SingleCourse from '../SingleCourse/SingleCourse';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const images = [pic1, pic2, pic3, pic4]
 
@@ -21,7 +21,12 @@ const data = [
     { id: 3, service: "Premimum Courses" },
 ]
 const Home = () => {
-    const [courses, setCourses] = useCourses([])
+    let navigate = useNavigate()
+    const handleCourseBtn = () => {
+        navigate('/courses')
+    }
+
+    const [courses, setCourses] = useCourses('')
     const slicedCourses = courses.slice(0, 3)
     return (
         <div className='home'>
@@ -35,7 +40,7 @@ const Home = () => {
                     <p>We don't share the Courses, We share the ideas !!</p>
                     <h2 className='heading'>Resources are always free for Our students</h2>
                     <p>We provide a lot of free content .The term Course of Study refers to an integrated course prepared for academic studies. It is a series of courses that every student should complete before they progress to the next level of education.</p>
-                    <button className='courses-btn'>Explore courses</button>
+                    <button onClick={handleCourseBtn} className='courses-btn'>Explore courses</button>
 
                 </div>
                 <div className="home-courses-pic my-5 my-md-0">
@@ -73,7 +78,7 @@ const Home = () => {
             </div>
             <div className="featured pt-5">
                 <h3 className='text-white'>Are You ready</h3>
-                <button className='courses-btn'>Get Started</button>
+                <button onClick={handleCourseBtn} className='courses-btn'>Get Started</button>
             </div>
         </div>
     );

@@ -11,5 +11,22 @@
 
 .singleConsultancy .image img {
     max-width: 100%;
-    display: block;
+    width: 400px;
+}
+
+.heading-consultacny {
+    font-family: lato sans-serif;
+    font-weight: bolder;
+    font-size: 34px;
+    position: relative;
+}
+
+.heading-consultacny::before {
+    content: "";
+    background-color: #607D8B;
+    width: 6px;
+    height: 75px;
+    position: absolute;
+    top: -37px;
+    left: -20px;
 }

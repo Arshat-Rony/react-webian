@@ -1,0 +1,27 @@
+.bootcamps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 80%;
+
+}
+
+.bootcamps-hero {
+    background-image: url(../../images/bootcamps-hero.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (min-width:992px) {
+    .bootcamps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.bootcamp-discussion>* {
+    flex-basis: 50%;
+    ;
+}

@@ -3,24 +3,28 @@
         "id": "624c7542e666e0b3ace82c79",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQbnpMKOhgOIMOB5T68UZaHIquEDvnkqSrw&usqp=CAU",
         "rating": 4.8,
+        "title": "all courses",
         "name": "Play with Javascript"
     },
     {
         "id": "624c75424d3eec64f8249cdf",
-        "picture": "https://thumbs.dreamstime.com/b/python-programming-language-programing-workflow-abstract-algorithm-concept-virtual-screen-200850656.jpg",
+        "picture": "https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/12/Python-Programming.png",
         "rating": 5.4,
+        "title": "all courses",
         "name": "Start with Python"
     },
     {
         "id": "624c75425adf64c2da3520d5",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNsLutsee4oiEXJmJRw56ROfDMYta0Uu7mprjnb3PJwH2G0YREsPYJ_ZiHg1GO02VJfo&usqp=CAU",
         "rating": 5.9,
+        "title": "all courses",
         "name": "Code with Node"
     },
     {
         "id": "624c754261637ab8ece2c5fd",
         "picture": "https://icon-library.com/images/javascript-icon-png/javascript-icon-png-7.jpg",
         "rating": 3.4,
+        "title": "all courses",
         "name": "Make Base With JS",
         "reviews": "This is my review"
     },
@@ -28,36 +32,105 @@
         "id": "624c75424364fc2bd51026ca",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH4eRX0bdINJOiKx7M6LX6Zbnf27L95V69cXVxzMrQEl8f3v8ZYHVqmLM5cyW_IaK8ZWk&usqp=CAU",
         "rating": 4.8,
+        "title": "all courses",
         "name": "Fun with Kotlin"
     },
     {
         "id": "624c7542dd219646905ff082",
         "picture": "https://cdn.programiz.com/sites/tutorial2program/files/c-arrays.jpg",
         "rating": 3.4,
+        "title": "all courses",
         "name": "Arrays Fun"
     },
     {
         "id": "624c7542db98627b9538aee1",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREFPYPTFkkIN26-Aljc4sRGq-yt0dPZGbvmIMApZ39ZkI9YIJHDmR9U5asu-6O6bn6WY&usqp=CAU",
         "rating": 5.4,
+        "title": "all courses",
         "name": "Act with React"
     },
     {
         "id": "624c75420cf9268a89945d15",
         "picture": "https://miro.medium.com/max/1400/1*aD8YBe-9u1RMKJp3n4OjsA.jpeg",
         "rating": 4.8,
+        "title": "all courses",
         "name": "React core Concepts"
     },
     {
         "id": "624c7542dcad9ba3ba21801e",
         "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200623173727/python-applications.png",
         "rating": 5.9,
+        "title": "all courses",
         "name": "Python Core Concepts"
     },
     {
         "id": "624c7542a91988b0ec226b70",
         "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210707194050/A-Complete-Guide-to-Learn-Kotlin-for-Android-App-Development.png",
         "rating": 2.3,
+        "title": "all courses",
         "name": "Kotlin core Concepts"
+    },
+    {
+        "id": "624c7542391988b0ec226b70345",
+        "picture": "https://image.shutterstock.com/image-photo/open-book-hardback-books-on-260nw-1161553558.jpg",
+        "rating": 4,
+        "title": "books",
+        "name": "Be WEBIAN"
+    },
+    {
+        "id": "624c75429091988b0ec226b70098",
+        "picture": "https://leverageedu.com/blog/wp-content/uploads/2019/09/Importance-of-Books.jpg",
+        "rating": 4.9,
+        "title": "books",
+        "name": "Code For Noobs"
+    },
+    {
+        "id": "625565032bf321da9306fd58",
+        "picture": "https://www.freecodecamp.org/news/content/images/2020/08/wall-2.jpeg",
+        "rating": 5.9,
+        "title": "premium courses",
+        "name": "Advance JS"
+    },
+    {
+        "id": "625565036b62d5f9e807abcc",
+        "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203170945/HTML-Tutorials.png",
+        "rating": 2.2,
+        "title": "free courses",
+        "name": "Dribble with HTML"
+    },
+    {
+        "id": "62556503a51795cfd59233b1",
+        "picture": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png",
+        "rating": 2.3,
+        "title": "free courses",
+        "name": "Base of CSS"
+    },
+    {
+        "id": "625565033c5b8eb1139ae804",
+        "picture": "https://www.datocms-assets.com/14946/1633281680-ux-vs-ui-cover-edited.png?auto=format&w=912",
+        "rating": 2.3,
+        "title": "free courses",
+        "name": "Classy UI Design"
+    },
+    {
+        "id": "625565036d163163442af88c",
+        "picture": "https://upanastudio.com/uploads/blogs/c8334866b167c8b73d9859bd7d833ac7.png",
+        "rating": 2.3,
+        "title": "premium courses",
+        "name": "Oops in JS"
+    },
+    {
+        "id": "625565031602c433bd8c1a64",
+        "picture": "https://calibraint-website.s3.us-east-2.amazonaws.com/calibraint-wordpress/wp-content/uploads/2020/02/20163451/UI-UX-Design.jpg",
+        "rating": 4.5,
+        "title": "premium courses",
+        "name": "Advance UI/UX Course"
+    },
+    {
+        "id": "62556503f563fbc188e9296d",
+        "picture": "https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A347ece48-0f69-11e9-a3aa-118c761d2745?source=ig",
+        "rating": 2.3,
+        "title": "free courses",
+        "name": "Chart with React"
     }
 ]

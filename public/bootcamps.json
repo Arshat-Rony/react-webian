@@ -1,0 +1,20 @@
+[
+    {
+        "id": "62557e38be39d26727e76db8",
+        "price": "1,300.35",
+        "picture": "https://i.pinimg.com/originals/c1/b1/1d/c1b11d2abea27744382294c0e0c46637.jpg",
+        "heading": "Boost your Bootcamps"
+    },
+    {
+        "id": "62557e38c8fe03341196670c",
+        "price": "1,446.42",
+        "picture": "https://miro.medium.com/max/640/1*-RW9D5As43rF6JTCWN932A.png",
+        "heading": "UI/UX Desgin Bootcamps"
+    },
+    {
+        "id": "62557e385ca124183851054f",
+        "price": "1,054.26",
+        "picture": "https://solwincdn-79e1.kxcdn.com/wp-content/uploads/2021/06/Front-End-Development-Best-Practices-e1627617889742.png",
+        "heading": "Frontend Development Bootcamp"
+    }
+]

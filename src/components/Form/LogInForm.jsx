@@ -103,7 +103,7 @@ const LogInForm = () => {
                     }
                 </Button>
                 <p>or continue with</p>
-                <div className="google d-flex gap-3 justify-content-center my-4">
+                <div className="google d-flex gap-3 justify-content-center my-4 border-0">
                     <img onClick={handlePopupBtn} className='border border-light  p-3' style={{ width: '70px', height: "80px" }} src='form-img/google.png' alt="" />
                     <img onClick={handlePopupBtn} className='border border-light p-3' style={{ width: '70px', height: "80px" }} src='form-img/github.jpg' alt="" />
 

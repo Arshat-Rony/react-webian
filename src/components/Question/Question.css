@@ -1,0 +1,15 @@
+@media (min-width:768px) {
+    .question {
+        width: 550px;
+    }
+}
+
+.question {
+    border-bottom: 1px solid #212529;
+}
+
+.question h3 {
+    color: #212529;
+    font-family: lato sans-serif;
+    font-weight: bold;
+}

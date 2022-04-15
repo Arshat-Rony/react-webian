@@ -1,6 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useState } from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import useCourses from '../../hooks/useCourses';
+import Books from '../Books/Books';
 import SingleCourse from '../SingleCourse/SingleCourse';
 import './Courses.css'
 const buttons = [
@@ -10,19 +13,45 @@ const buttons = [
     { id: 4, text: "Premium Courses" }
 ]
 
+
 const Courses = () => {
-    const [courses, setCourses] = useCourses()
+    let heading;
+    const [serarchtext, setSerarchtext] = useState("")
+    const [courses, setCourses] = useCourses(serarchtext)
+    const [color, setColor] = useState('')
+
+    const handleSearch = (text) => {
+        setSerarchtext(text)
+        heading = serarchtext;
+    }
+    const handleSearchOption = (e) => {
+        setSerarchtext(e.target.value)
+    }
+
     return (
         <div className='courses-section'>
             <div className="course-menu">
                 {
-                    buttons.map(item => <Link to={`/courses/${item.text}`} key={item.id} className='text-decoration-none'>
-                        <button>All Courses</button>
-                    </Link>)
+
+                    buttons.map(item =>
+
+
+                        <button style={{ background: color }} onClick={() => handleSearch(`${item.text}`)}>{item.text}</button>
+
+
+                    )
+
                 }
             </div>
             <div className="courses-page">
-                <h1 className='course-heading text-center text-md-start'>All Courses</h1>
+                <div className='d-flex flex-column flex-md-row justify-content-between'>
+                    <h1 className='course-heading text-center text-md-start text-capitalize'>{serarchtext ? serarchtext : "All Courses"}</h1>
+                    <div className="search-box">
+                        <input onChange={handleSearchOption} type="search" className='ps-3' name="search" id="search" placeholder='Search By Title' />
+                        <FontAwesomeIcon className='icon' icon={faSearch}></FontAwesomeIcon>
+                    </div>
+
+                </div>
                 <hr />
                 <div className="courses">
                     {
@@ -32,7 +61,9 @@ const Courses = () => {
                         ></SingleCourse>)
                     }
                 </div>
+
             </div>
+            <Outlet />
         </div>
     );
 };
